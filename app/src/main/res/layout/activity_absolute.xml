@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_x="15dp" android:layout_y="25dp" android:text="(15, 25)" />
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_x="30dp" android:layout_y="105dp" android:text="(30, 105)" />
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_x="85dp" android:layout_y="200dp" android:text="(85, 200)" />
+</AbsoluteLayout>

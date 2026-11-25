@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="32dp"
+        android:paddingBottom="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bài tập UI"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp"
+            android:text="Tuần 1 · Layout và Controls"
+            android:textSize="15sp"
+            android:alpha="0.6" />
+
+        <Button android:id="@+id/btnLinear" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginBottom="10dp" android:text="Linear Layout" />
+        <Button android:id="@+id/btnRelative" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginBottom="10dp" android:text="Relative Layout" />
+        <Button android:id="@+id/btnTable" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginBottom="10dp" android:text="Table Layout" />
+        <Button android:id="@+id/btnFrame" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginBottom="10dp" android:text="Frame Layout" />
+        <Button android:id="@+id/btnAbsolute" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginBottom="10dp" android:text="Absolute Layout" />
+        <Button android:id="@+id/btnList" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginBottom="10dp" android:text="ListView + Spinner" />
+        <Button android:id="@+id/btnGrid" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginBottom="10dp" android:text="GridView" />
+        <Button android:id="@+id/btnControls" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginBottom="10dp" android:text="Controls" />
+        <Button android:id="@+id/btnWeb" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginBottom="10dp" android:text="WebView" />
+        <Button android:id="@+id/btnDialog" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginBottom="10dp" android:text="Menu + Dialog + Toast" />
+        <Button android:id="@+id/btnProduct" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginBottom="10dp" android:text="Danh sách Product" />
+        <Button android:id="@+id/btnLogin" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginBottom="10dp" android:text="Login → Home → Detail" />
+    </LinearLayout>
+</ScrollView>

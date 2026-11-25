@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="16dp" android:stretchColumns="1">
+    <TableRow>
+        <TextView android:text="Tên đăng nhập" android:padding="8dp" />
+        <EditText android:hint="Nhập username" android:inputType="text" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Mật khẩu" android:padding="8dp" />
+        <EditText android:hint="Nhập password" android:inputType="textPassword" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Email" android:padding="8dp" />
+        <EditText android:hint="abc@gmail.com" android:inputType="textEmailAddress" />
+    </TableRow>
+    <TableRow>
+        <Button android:layout_span="2" android:text="Đăng nhập" />
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp">
+    <Button android:id="@+id/btnToast" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Toast" />
+    <Button android:id="@+id/btnAlert" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Alert Dialog" />
+    <Button android:id="@+id/btnPrompt" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Prompt Dialog (nhập chữ)" />
+    <Button android:id="@+id/btnMenu" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Menu (bấm để mở)" />
+</LinearLayout>

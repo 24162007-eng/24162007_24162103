@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tanh_primary">#C62465</color>
+    <color name="tanh_primary_dark">#941747</color>
+    <color name="tanh_soft">#FFE5EE</color>
+
+    <color name="tanh_canvas">#FFF9FB</color>
+    <color name="tanh_surface">#FFFFFF</color>
+    <color name="tanh_image">#F8F2F5</color>
+
+    <color name="tanh_ink">#34242D</color>
+    <color name="tanh_muted">#75616C</color>
+    <color name="tanh_line">#EEDFE6</color>
+</resources>
